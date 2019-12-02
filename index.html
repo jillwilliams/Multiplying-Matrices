@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" 
+    Unicode="U+00A9, UTF-8: C2 A9" 
+    Unicode="U+2197 U+FE0E UTF-8: E2 86 97 EF B8 8E" 
+    Unicode="U+2198 U+FE0E, UTF-8: E2 86 98 EF B8 8E" 
+    Unicode="U+220F, UTF-8: E2 88 8F" 
+    Unicode="U+2606, UTF-8: E2 98 86"         
+    Unicode="U+00BA, UTF-8: C2 BA"
+    Unicode="U+299F, UTF-8: E2 A6 9F"
+    Unicode="U+2264, UTF-8: E2 89 A4"
+    Unicode="U+2265, UTF-8: E2 89 A5"
+    Unicode="U+003C, UTF-8: 3C"
+    Unicode="U+003E, UTF-8: 3E"
+    Unicode="U+25CB, UTF-8: E2 97 8B"
+    Unicode="U+25CF, UTF-8: E2 97 8F"
+>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light|Permanent+Marker|Amatic+SC|Caveat|Kalam|Nosifer|Vibes|Sniglet|Satisfy|Architects+Daughter|Bilbo|Patrick+Hand" rel="stylesheet">
+    <title>Multiplying Matrices</title>
+    <link rel="stylesheet" HREF="./styles.css">
+</head>
+<body>
+    <h1>
+        Multiplying Matrices
+    </h1>
+    <hr>
+    <p>
+        When you multiply a matrix by a integer it is called "scaler multiplication". The integer will be distributed to each entry in the matrix by multiplication. Multiplying each element in the matrix by the integer will produce the answer matrix. The dimensions of the matrix will remain the same before and after the multiplication.
+    </p>
+    <hr>
+    <p>
+        Example 1: Multiply:<br>
+        <img src="images/img1.png" id="img1" />
+    </p>
+    <hr>
+    <p>
+        Example 2: Multiply:<br>
+        <img src="images/img2.png" id="img2" />
+    </p>
+    <hr>
+    <p>
+        Example 3: Multiply:<br>
+        <img src="images/img3.png" id="img3" />
+    </p>
+    <hr>
+    <p>
+        It is important to memorize that the original dimensions of the matrix are the same after the scalar multiplication.<br>
+        Example 1 is a 1 x 3 matrix, example 2 is a 3 x 1 matrix, and example 3 is a 3 x 3 matrix.<br>The dimensions stay the same before and after the multiplication. 
+    </p>
+    <hr>
+    <p>
+        When multiplying two matrices together, the rule above does not apply. Matrix multiplication is different than multiplying a matrix using scalar multiplication.
+    </p>
+    <hr>
+    <p>
+        Example 1: Multiply the matrices:
+        <img src="images/img4.png" alt="ex1" id="img4" />
+    </p>
+    <hr>
+    <p>
+        Example 2: Multiply the matrices:
+        <img src="images/img5.png" alt="ex2" id="img5" />
+    </p>
+    <hr>
+    <p>
+        Rule<br>
+        In order to multiply two matrices, the inner dimensions of the two matrices MUST be the same. The answer matrix will have the dimensions of the outer dimensions as its final dimension. 
+    </p>
+    <p>
+        Example: A 1x3 matrix multiplied by a 3x1 matrix will result in a 1x1 matrix as the answer.<br><br>
+        <img src="images/img6.png" alt="ex" id="img6" />
+    </p>
+    <p>
+        Example: A 2x5 matrix multiplied by a 5x3 matrix will result in a 2x3 matrix as the answer.<br><br>
+        <img src="images/img7.png" alt="ex" id="img7" />
+    </p>
+    <p>
+        Example: A 3x6 matrix multiplied by a 6x1 matrix will result in a 3x1 matrix as the answer.<br><br>
+        <img src="images/img8.png" alt="ex" id="img8" />
+    </p>
+    <p>
+        Example: A 2x3 matrix multiplied by a 3x5 matrix will result in a 2x5 matrix as the answer.<br><br>
+        <img src="images/img9.png" alt="ex" id="img9" />
+    </p>
+    <p>
+        Example: A 3x4 matrix multiplied by a 5x2 matrix will result in an error. There is no solution to this problem.<br><br>
+        <img src="images/img10.png" alt="ex" id="img10" />
+    </p>
+    <hr>
+    <p>
+        Rule:<br>
+        In order to multiply two matrices together, their inner dimension MUST be the same. In this example, the inner dimensions are 4 and 5. They are not the same number. Therefore there is no work to be done. The answer is "no solution". It is important that you memorize this rule. 
+    </p>
+    <hr><hr>
+    <p>
+        Rule for Multiplying Matrices<br>
+        If matrix A has dimensions axb and matrix B has dimensions of bxc, then their product will have dimensions of axc.
+        <img src="images/img11.png" alt="11" id=img11 />
+    </p>
+    <hr><hr>
+    <p>
+        To multiply two matrices, the sum of the corresponding entry's products must be calculated. A general formula can help you keep the answer correct.<br><br>
+        <img src="images/img12.png" alt="12" id="img12" /><br>
+        It does not matter what numbers are in each matrix, the multiplication pattern remains the same for each problem.
+    </p>
+    <hr>
+    <p>
+        Example: Multiply:<br>
+        <img src="images/img13.png" alt="13" id="img13" /><br>
+    </p>
+    <hr>
+    <p>
+        Example: Multiply:<br>
+        <img src="images/img14.png" alt="14" id="img14" /><br>
+    </p>
+    <hr>
+    <p>
+        Example: Multiply:<br>
+        <img src="images/img15.png" alt="15" id="img15" /><br>
+    </p>
+    <hr>
+    <p>
+        Example: Multiply:<br>
+        <img src="images/img16.png" alt="16" id="img16" /><br>
+    </p>
+    <hr>
+    <footer>
+        ©2019 All Things Math
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
